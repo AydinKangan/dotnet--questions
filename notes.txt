@@ -1,0 +1,8 @@
+add question and answer route.
+
+each question has a id, cna find questions and answer pair by id.
+
+can get a random question
+
+can answer the question (answerquestion/{id}/{answer})
+
