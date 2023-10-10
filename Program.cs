@@ -8,7 +8,7 @@ app.MapGet("/", context =>
 });
 
 
-app.MapPost("add/{question}/{answer}", (string question, string answer) =>
+app.MapPost("/add/{question}/{answer}", (string question, string answer) =>
 {
     QuestionAnswer addQuestion = Add.AddQuestion(question, answer);
 });
